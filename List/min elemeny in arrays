@@ -1,0 +1,10 @@
+list=[0]
+size =int(input("enter size of arrays :"))
+for i in range(0,size):
+    list.append(int(input("enter eleemnt %d :"%i)))
+print(list)
+min=0
+for i in list:
+    if min>i:
+        min=i;
+print("max number in  enire list is : %d "%min)
