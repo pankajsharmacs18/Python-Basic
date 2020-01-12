@@ -1,0 +1,17 @@
+str = input("enter Enter striong \n ")
+print(len(str))
+vovels ={'a','e','o','i','u','A','E','I','O','U'}
+print("givein string is %s"%str)
+vowelsCount = 0;
+consonant=0;
+space=0
+for i in str:
+   if i in vovels:
+       vowelsCount=vowelsCount+1
+   elif i!=" ":
+       consonant=consonant+1
+   else:
+       space=space+1
+print("vovels count is :%d "%vowelsCount)
+print("counttant ocunt is : %d "%consonant)
+print("space in  given string is : %d"%space)
