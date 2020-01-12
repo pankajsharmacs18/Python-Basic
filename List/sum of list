@@ -1,0 +1,9 @@
+list=[0]
+size =int(input("enter size of list  :"))
+for i in range(0,size):
+    list.append(int(input("enter eleemnt %d :"%i)))
+print(list)
+sum=0;
+for i in range(len(list)):
+    sum=sum+list[i]
+print("sum of enire list is : %d "%sum)
