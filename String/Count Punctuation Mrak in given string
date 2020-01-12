@@ -1,0 +1,10 @@
+str = input("enter Enter striong \n ")
+punMark={'!','"','#','%','&',',','*',',',',',',','/',':',';','?','@','\\','&','$','+'}
+print("givein string is %s"%str)
+PuncCount = 0;
+
+for i in str:
+   if i in punMark:
+        PuncCount=PuncCount+1
+
+print("space in  given string is : %d"%PuncCount)
