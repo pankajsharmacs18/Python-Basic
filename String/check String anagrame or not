@@ -1,0 +1,9 @@
+str = input("enter Enter striong \n ")
+str2= input("Enter anothewr string")
+print("givein string is %s"%str)
+print("givein 2nd string is %s"%str2)
+if(set(str)==set(str2)):
+    print("Both string is anagrame ")
+else:
+    print(" Not ")
+
