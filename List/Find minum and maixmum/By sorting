@@ -1,0 +1,7 @@
+length =int(input("enter length of list "))
+lst=[]
+for i in range(length):
+    lst.append(int(input("enter value ")))
+print(lst)
+lst.sort()
+print("min element is :%d and max element is :%d "%(lst[0],lst[len(lst)-1]))
