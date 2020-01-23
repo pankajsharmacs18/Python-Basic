@@ -1,0 +1,9 @@
+str= input("enter string ")
+strCount=0;
+for i in set(str):
+    count =0
+    count=str.count(i)
+    if (strCount<count):
+        strCount=count
+        strR=i
+print("string %s : reapte %d : time :"%(strR,strCount))
