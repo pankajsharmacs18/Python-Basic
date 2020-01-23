@@ -1,0 +1,8 @@
+dict={}
+size=int(input("enter length of dictionary :"))
+for i in range(size):
+    key =input("enter key ")
+    dict[key]=input(input(("enter value in dictionary")))
+for i in dict:
+    print(i)
+print(sorted(dict))
