@@ -1,0 +1,14 @@
+length =int(input("enter length of list "))
+lst=[]
+for i in range(length):
+    lst.append(int(input("enter value ")))
+print(lst)
+max=lst[0]
+min=lst[0]
+
+for i in range(len(lst)):
+    if(max<lst[i]):
+        max=lst[i]
+    if(lst[i]<min):
+        min=lst[i]
+print("min element is :%d and max element is :%d "%(min,max))
