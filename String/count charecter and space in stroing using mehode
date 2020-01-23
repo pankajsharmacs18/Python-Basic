@@ -1,0 +1,3 @@
+str=input("enter string :")
+print("Space in string is \:"%(str.count(" ")))
+print("charecter in :%d "%(len(str)-str.count(" ")))
