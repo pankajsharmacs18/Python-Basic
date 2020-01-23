@@ -1,0 +1,11 @@
+dict={}
+size=int(input("enter length of dictionary :"))
+for i in range(size):
+    key =input("enter key ")
+    dict[key]=input(input(("enter value in dictionary")))
+for i in dict:
+    print(i)
+
+dict[input("new key ")]=input("enter value ")
+for i in dict.items():
+    print(i)
