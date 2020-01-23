@@ -1,0 +1,5 @@
+str= input("enter string ")
+print("all subset is :")
+for i in range(len(str)):
+    for j in range(i+1,len(str)):
+        print(str[i:j])
