@@ -1,0 +1,18 @@
+dict={}
+size =int(input("enter size of dictionary:"))
+for i in range(size):
+    key=input("enter key :")
+    values=input("enter value :")
+    dict[key]=values
+print("dict is :")
+for i in dict.items():
+    print(i)
+choice=int(input("what do you want check :\n press 1 ++ Key \n 2== Value"))
+if(choice==1):
+    keys=input("enter key ")
+    if(keys in dict.keys()):
+        print("keys is present in dict :")
+if(choice==2):
+    value=input("enter values ")
+    if (value in dict.values()):
+        print("values is present in dict :")
