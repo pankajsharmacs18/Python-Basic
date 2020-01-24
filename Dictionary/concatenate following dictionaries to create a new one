@@ -1,0 +1,26 @@
+dict={}
+dict1={}
+resul={}
+size=int(input("enter length of dictionary :"))
+for i in range(size):
+    key =input("enter key ")
+    dict[key]=input(("enter value in dictionary"))
+
+print("enter 1st dict is :")
+for i in dict.items():
+    print(i)
+for i in range(size):
+    key=input("enter key :")
+    value=input("enter value :")
+    dict1[key]=value
+print("2nd dict is :")
+for i in dict1.items():
+    print(i)
+for x,y in dict1.items():
+    resul[x]=y
+for x,y in dict.items():
+    resul[x]=y
+    print("resulted dict is :")
+for i in resul.items():
+    print(i)
+
