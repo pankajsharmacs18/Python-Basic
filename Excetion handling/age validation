@@ -1,0 +1,8 @@
+try:
+    age=int(input("enter age"))
+    if(age<18):
+        raise AgeException;
+except Exception:
+    print("age error")
+finally:
+    print("please mention the age :")
