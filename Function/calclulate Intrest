@@ -1,0 +1,16 @@
+def compundIntrest(time,rate,prime):
+    intrest=prime*(pow(1+(rate/100),time))
+    return (intrest-prime)
+def simpleIntrest(time,rate,prime):
+    intrest=(time*rate*prime)/100
+    return (intrest)
+prime=float(input("enter Rpay of to be clacluate intreset :"))
+time=int(input("enter time of intreset :"))
+rate =float(input("enter rate of intreset"))
+choice=int(input("Please methode \n : 1 == CompounD Intrser \n 2 == simplwe intreset "))
+if(choice==1):
+    print(compundIntrest(time,rate,prime))
+elif(choice==2):
+    print(simpleIntrest(time,rate,prime))
+else:
+    print("enter wrong choice :")
