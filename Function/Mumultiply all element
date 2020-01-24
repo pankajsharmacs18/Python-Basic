@@ -1,0 +1,13 @@
+def InputList(size,list):
+    for i in range(size):
+        list.append(float(input("eter value ")))
+    return list
+def SumList(list):
+    mul=1
+    for i in list:
+       mul=mul*i;
+    return mul
+list=[]
+size=int(input("enter size of list :"))
+print(InputList(size,list))
+print("multiply of list %d: "%SumList(list))
