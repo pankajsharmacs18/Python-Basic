@@ -1,0 +1,29 @@
+package factorial;
+
+import java.util.Scanner;
+
+public class Factorial {
+    public void grid(int hight,int width){
+        System.out.println("grid of :"+hight+" X "+width);
+        for (int i = 0; i <hight ; i++) {
+            for (int j = 0; j <width ; j++) {
+                System.out.print(" - ");
+
+            }
+            System.out.println();
+
+        }
+    }
+    public static void main(String args[]){
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("eaner hight of grid ");
+        int hight  = input.nextInt();
+        System.out.println("enter width of grid :");
+        int width =input.nextInt();
+        Factorial obj = new Factorial();
+        obj.grid(hight,width);
+
+
+    }
+}
