@@ -1,0 +1,4 @@
+str=input("enter string ")
+n=int(input("Etner nth index"))
+str=str[0:n-1]+str[n:len(str)]
+print(str)
