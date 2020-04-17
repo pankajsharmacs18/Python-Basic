@@ -1,0 +1,9 @@
+str=input("Enter string  : ");
+#or long ways is
+len=0;
+for i in set(str):
+    len=0;
+    for j in str:
+        if(i==j):
+            len=len+1
+    print(" %s : %d"%(i,len))
