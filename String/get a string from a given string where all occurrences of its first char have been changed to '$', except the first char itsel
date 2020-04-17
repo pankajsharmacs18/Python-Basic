@@ -1,0 +1,6 @@
+str=input("Enter string  : ");
+print(str)
+for i in set(str):
+    if(str.count(i)>=2):
+        str=str.replace(i,"$",str.count(i)-1)
+print(str)
