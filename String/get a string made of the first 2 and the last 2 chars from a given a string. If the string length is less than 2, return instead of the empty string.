@@ -1,0 +1,7 @@
+str=input("Enter string  : ");
+if(len(str)==1):
+    print("Empty string !")
+elif(len(str)==2):
+    print(str*2)
+else:
+    print(str[0:2]+str[len(str)-2:len(str)])
