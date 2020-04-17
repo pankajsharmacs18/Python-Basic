@@ -1,0 +1,4 @@
+str=input("enter string ")
+str=str.split(" ")
+print(max(str))
+print(str)
