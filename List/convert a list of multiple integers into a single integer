@@ -1,0 +1,8 @@
+lst=[]
+for i in range(int(input("entr range "))):
+    lst.append(int(input()))
+print(lst)
+sum=0;
+for i in lst:
+    sum=sum*10+i;
+print(sum)
