@@ -1,0 +1,11 @@
+dict={}
+for i in range(int(input("enter range  :"))):
+    key=input("entr key ")
+    dict[key]=int(input("enter value  : "))
+for x,y in dict.items():
+    print(x,y)
+keyS=input("enter key to be seacch : ")
+if(dict.keys().__contains__(keyS)):
+    print("contains ")
+else:
+    print("Not ")
