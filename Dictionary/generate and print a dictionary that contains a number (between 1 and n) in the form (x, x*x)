@@ -1,0 +1,5 @@
+dict={}
+for i in range(int(input("enter range  :"))):
+    dict[i]=i*i;
+for i in dict.items():
+    print(i)
