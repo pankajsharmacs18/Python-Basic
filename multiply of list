@@ -1,0 +1,8 @@
+lst=[]
+for i in range(int(input("ener range : "))):
+    lst.append(int(input("ener")))
+    mul=1;
+print(lst)
+for i in lst:
+    mul =mul*i;
+print(mul)
