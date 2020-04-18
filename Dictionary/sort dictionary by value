@@ -1,0 +1,7 @@
+dict={}
+for i in range(int(input())):
+    key=input("entr key ")
+    dict[key]=int(input("enter value  : "))
+for x,y in dict.items():
+    print(x,y)
+print(sorted(dict.values()))
