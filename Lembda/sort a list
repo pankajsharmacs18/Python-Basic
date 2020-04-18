@@ -1,0 +1,6 @@
+r=lambda a:sorted(a)
+lst=[]
+for i in range(int(input("enter range   : "))):
+    lst.append(int(input()))
+print(lst)
+print("soted list is : ",r(lst))
