@@ -1,0 +1,6 @@
+dict={}//create empty lsit :
+for i in range(int(input(int(input("enter range : ))))):
+    key=input("entr key ")
+    dict[key]=int(input("enter value  : "))
+for x,y in dict.items():
+    print(x,y)
