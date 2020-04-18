@@ -1,0 +1,8 @@
+str=input("Entr string")
+n=int(input("ener length "))
+lst=str.split(" ")
+print(lst)
+for i in lst:
+    if(len(i)<=n):
+        lst.remove(i);
+print(lst)
