@@ -1,0 +1,19 @@
+	lst=[]
+for i in range(int(input("enter range of 1st list " ))):
+    lst.append(int(input()))
+print("1st list isk  : ",lst)
+print("n ,count ")
+sbl=[]
+for i in range(int(input("enter size of sublist  : "))):
+    sbl.append(int(input()))
+print("sublist is ",sbl)
+count=0;
+for i in sbl:
+    if(lst.count(i)>0):
+        count=count+1
+    else:
+        break
+if(count==len(sbl)):
+    print("yes")
+else:
+    print("Not ")
