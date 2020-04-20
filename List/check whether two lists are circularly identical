@@ -1,0 +1,13 @@
+lst=[]
+for i in range(int(input("enter range of 1st list " ))):
+    lst.append(int(input()))
+print("1st list isk  : ",lst)
+lst1=[]
+for i in range(int(input("enter range of seocund arrasy : "))):
+    lst1.append((int(input())))
+print("2nd list is ",lst1)
+if(lst[::-1]==lst1):
+    print("Identical : ")
+else:
+    print("Not ")
+	
