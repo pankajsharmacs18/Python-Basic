@@ -1,0 +1,6 @@
+import random;
+lst=[]
+for i in range(int(input("enter range of 1st list " ))):
+    lst.append(int(input()))
+print("1st list isk  : ",lst)
+print("random numer is ",random.choice(lst))
