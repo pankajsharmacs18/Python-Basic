@@ -1,0 +1,6 @@
+str1=input("Enter 1sst string to be checked")
+str2=input("Enter 2nd string to be checked ")
+if(set(str1.lower())==set(str2.lower())):
+    print("Both string are anagrame ")
+else:
+    print("Both string are not anagrrame string")
