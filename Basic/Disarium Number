@@ -1,0 +1,13 @@
+x=input("Enter Number to be check")
+print("Entered Number is %d",x)
+l=len(x)
+sum=0;
+for i in range(l):
+    v=int(x[i])
+    sum=sum+v**(i+1);
+    print(sum)
+print(sum)
+if(sum==int(x)):
+   print("Disarium Number")
+else:
+    print("Not")
