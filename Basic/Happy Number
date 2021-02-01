@@ -1,0 +1,17 @@
+num=input("Enter a numer to be checked ")
+temp=num
+s=10
+while(s>9):
+    s=0
+    for i in range(len(temp)):
+        s=s+int(temp[i])**2
+    if(s==1):
+        print("Happy Number ")
+        break
+    elif (s<=9):
+        print("Not A HAPPY Number")
+        break
+    else:
+        temp=str(s)
+    
+    
