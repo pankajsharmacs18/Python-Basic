@@ -1,0 +1,7 @@
+str=input("Enter a string to be find subset of all ")
+st=set()
+for i in range(len(str)):
+    for j in range(i,len(str)):
+        t=str[i:j]
+        st.add(t)
+print("All Set is " ,st)
