@@ -1,0 +1,7 @@
+str=input("Enter a string to be part")
+print("Entered String is :-  ",str)
+print("Size of string is ",len(str))
+n=int(input("Entered hoo many part to break string"))
+n=len(str)//n
+for i in range(0,len(str),n):
+    print(len(str[i:i+n]),str[i:i+n])
